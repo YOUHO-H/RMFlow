@@ -1,0 +1,8 @@
+defaults:
+  - DatasetFitzHughNagumo
+  - _self_
+
+time_step: 6.
+time_step_count: 310
+# time_step_count: 667
+time_step_count_drop_first: 250

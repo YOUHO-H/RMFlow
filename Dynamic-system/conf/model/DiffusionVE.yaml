@@ -1,0 +1,4 @@
+defaults:
+  - ModelDiffusion
+  - override sde_diffusion: SDEVarianceExploding
+  - _self_

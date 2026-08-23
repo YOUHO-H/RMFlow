@@ -1,0 +1,3 @@
+# @package _global_
+
+ckpt_monitor: FLOW_LOSS_EMA

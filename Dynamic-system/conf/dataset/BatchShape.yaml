@@ -1,0 +1,10 @@
+defaults:
+  - DatasetBatchShape
+  - _self_
+
+batch_count_train: 1
+batch_count_val: 1
+batch_count_test: 64
+time_step_count: 60
+time_step_count_drop_first: 0
+time_step_count_conditioning: 0

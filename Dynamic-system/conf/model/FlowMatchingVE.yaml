@@ -1,0 +1,7 @@
+defaults:
+  - ModelFlowMatching
+  - override conditional_flow: ConditionalSDE
+  - override conditional_flow/sde_diffusion: SDEVarianceExploding
+  - _self_
+
+time_samples_uniformly_spaced: true

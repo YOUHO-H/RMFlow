@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - override /dataset: GaussianMixture
+
+dataset:
+  time_step_count_conditioning: 0
+use_ckpt_monitor: false

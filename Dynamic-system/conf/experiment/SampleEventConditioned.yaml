@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - override /dataset: BatchShape
+  - override /model: ModelTrained
+  - _self_
+
+fit: false
+predict: true
+model:
+  sample_event_conditioned: true

@@ -1,0 +1,4 @@
+defaults:
+  - ModelFlowMatching
+  - override conditional_flow: ConditionalOT
+  - _self_
